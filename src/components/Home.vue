@@ -40,29 +40,6 @@ export default defineComponent({
       }
 
     }
-    // addItem() {
-    //   const newItem = {
-    //     name: this.newItemName
-    //   };
-
-    //   axios.post('https://jsonplaceholder.typicode.com/todos', newItem)
-    //     .then(response => {
-    //       this.items.push(response.data);
-    //       this.newItemName = '';
-    //     })
-    //     .catch(error => {
-    //       console.error(error);
-    //     });
-    // },
-    // deleteItem(itemId) {
-    //   axios.delete(`https://jsonplaceholder.typicode.com/todos/${itemId}`)
-    //     .then(() => {
-    //       this.items = this.items.filter(item => item.id !== itemId);
-    //     })
-    //     .catch(error => {
-    //       console.error(error);
-    //     });
-    // }
   }
 });
 </script>
