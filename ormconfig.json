@@ -1,0 +1,20 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Pau971011",
+  "database": "pruebapaulina",
+  "synchronize": true,
+  "autoLoadEntities": true,
+  "migrationsTableName": "migrations",
+  "cli": {
+    "migrationsDir": "./database/migration"
+  },
+  "entities": [
+    "./src/entities/*.entity.ts"
+  ],
+  "migrations": [
+    "./database/migration/*.ts"
+  ]
+}
