@@ -7,7 +7,7 @@ export async function connect() {
     host: 'localhost',
     port: 5432,
     username: 'postgres',
-    password: 'Pau971011',
+    password: '1234567',
     database: 'pruebapaulina',
     entities: ['../src/entities/*.ts'],
     synchronize: true,
