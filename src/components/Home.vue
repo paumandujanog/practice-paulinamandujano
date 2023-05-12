@@ -4,6 +4,7 @@
     <ul>
       <li v-for='item in items' :key='item.id'>
         {{ item.name }}
+        {{ item.status }}
         <button @click='deleteItem(item.id)'>Eliminar</button>
       </li>
     </ul>
